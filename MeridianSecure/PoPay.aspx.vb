@@ -424,7 +424,7 @@ Partial Class PoPay
 		'objMM.Bcc.Add(ConfigurationManager.AppSettings("FromAddr"))
 		Try
 			objMM.To.Add(tomail)
-			objMM.CC.Add("receiving@receiving.com")
+            objMM.CC.Add("hedwards@printlynx.com")
 		Catch ex1 As Exception
 
 		End Try	'ex1

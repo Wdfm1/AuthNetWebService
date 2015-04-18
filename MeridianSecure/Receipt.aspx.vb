@@ -97,7 +97,7 @@ Partial Class Receipt
         Try
             objMM.To.Add(tomail) 'customer address if address bad try statement in send will catch
             If Not IsNothing(Session("PO")) Then
-                objMM.Bcc.Add("sales@meridianplanners.com,recieving@receiving.com")
+                objMM.Bcc.Add("sales@meridianplanners.com,hedwards@printlynx.com")
 
             Else
                 objMM.Bcc.Add("sales@meridianplanners.com")
