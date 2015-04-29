@@ -465,7 +465,7 @@ Email Address for receipt to be sent:<br>
             <asp:HiddenField ID="x_recurring_billing" runat="server" Value="FALSE" />
             <asp:HiddenField ID="x_relay_response" runat="server" Value="FALSE" />
             <asp:HiddenField ID="x_delim_data" runat="server" Value="TRUE" />
-            <asp:Button ID="Button2" runat="server" Text="Submit Payment" Width="119px" 
+            <asp:Button ID="ecsubmit" runat="server" Text="Submit Payment" Width="119px" 
         style="height: 26px" />
         <br />
         Please only click the button once</div> 

@@ -94,7 +94,7 @@ Public Class SchoolPay
                 info.CardFname = x_first_name.Text
                 info.CardLname = x_last_name.Text
                 info.ExpDate = ddlmonth.SelectedValue & "/" & ddlyear.SelectedValue
-                'info.OrderId = lblinvoice.Text
+                info.OrderId = "SchoolPay" & hfschcode.Value.ToString
                 info.Custid = hfschcode.Value
                 info.Amount = total
                 info.Email = emailaddress
@@ -267,7 +267,7 @@ Public Class SchoolPay
                 info.bankabacode = x_bank_aba_code.Text
                 info.CardFname = x_first_name.Text
                 info.CardLname = x_last_name.Text
-                info.OrderId = "SchoolPay"
+                info.OrderId = "SchoolPay" & hfschcode.Value.ToString
                 info.Custid = hfschcode.Value
                 info.Amount = total
                 info.Email = emailaddress
